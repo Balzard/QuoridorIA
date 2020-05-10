@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>QuoridorIA</title>
+        <link rel="stylesheet" href="/static/css/game.css" >
+    </head>
+
+    <body>
+        <div id="gamegrid">
+
+        </div>
+        <div id="players">
+            <div class="player" x-player="0">
+
+            </div>
+        </div>
+        <div id="input">
+            Entrez un coup (ex: mur-D2-v, mur-A6-h ou VERT-E5)
+            <input type="text" id="player-input" />
+            <br/>
+            <br/>
+            Entrez des questions
+            <input type="text" id="question-input" />
+             <br/>
+             <br/>
+            Reponse du chatbot:
+             <br/>
+             <br/>
+            <span id="chatbot-response"></span>
+        </div>
+
+
+        <script src="/static/js/game.js"></script>
+        <script src="/static/js/demo.js"></script>
+    </body>
+</html>

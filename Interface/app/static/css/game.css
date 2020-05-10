@@ -1,0 +1,114 @@
+body {
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > div {
+    width: 80vmin;
+    margin: auto;
+}
+
+#gamegrid {
+    /*width: 80vmin;*/
+    /*height: 80vmin;*/
+    background-color: #ecc54e;
+    margin: auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.cell, .h-wall, .v-wall, .x-wall {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #100505;
+}
+
+
+.cell {
+    width: 6vmin;
+    height: 6vmin;
+}
+
+.h-wall {
+    width: 6vmin;
+    height: 1vmin;
+}
+
+.v-wall {
+    width: 1vmin;
+    height: 6vmin;
+}
+
+.x-wall {
+    width: 1vmin;
+    height: 1vmin;
+}
+
+.row-label {
+    display: inline-block;
+    width: 1.5em;
+    height: 6vmin;
+    line-height: 6vmin;
+    text-align: center;
+    vertical-align: top;
+}
+
+.spacing-label {
+    display: inline-block;
+    width: 1vmin;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.col-label {
+    display: inline-block;
+    width: 6vmin;
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.row {
+    display: inline-block;
+}
+
+.wall-row, .label-row {
+    margin-left: 1.5em;
+}
+
+.cell {
+    background-color: #201010;
+}
+
+.wall.inactive {
+    background-color: #603030;
+}
+
+.wall.active {
+    background-color: #cccc33;
+}
+
+.piece {
+    width: 5vmin;
+    height: 5vmin;
+    -webkit-border-radius: 2.5vmin;
+    -moz-border-radius: 2.5vmin;
+    border-radius: 2.5vmin;
+}
+
+.piece#blue {
+    background-color: blue;
+}
+
+.piece#green {
+    background-color: green;
+}
+
+.piece#red {
+    background-color: red;
+}
+
+.piece#yellow {
+    background-color: yellow;
+}
